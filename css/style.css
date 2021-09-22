@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.site-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 98px;
+}
+
+.site-logo {
+    display: block;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 0;
+}
+
+*:focus {
+    outline: 2px dotted blue;
+    outline-offset: 3px;
+}
+
+.logo-text {
+    margin-left: 16px;
+    color: black;
+    transition: 0.4s;
+}
+
+.logo-text:hover {
+    color: #DE2E54;
+}
+
+.site-navbar-items {
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
+
+.site-navbar-item {
+    display: block;
+    margin-right: 32px;
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+
+.site-navbar-item:last-child {
+    margin-right: 0;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+
+.navbar-link:hover {
+    color: #DE2E54;
+}
+
+.button {
+    padding: 12px 24px;
+    background: #DE2E54;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.button:hover {
+    border: 2px solid #DE2E54;
+    background-color: #fff;
+    color:#DE2E54 ;
+}
+
+/* Hero */
+
+.hero {
+    background-color: #0EB4C1;
+    color: #fff;
+
+}
+
+.hero-container {
+    display: flex;
+    /* margin-top: 120px; */
+    margin-bottom: 120px;
+}
+
+.hero-heading {
+    margin-top: 120px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.hero-text {
+    width: 440px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    line-height: 150%;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.hero-container img {
+    width: 423px;
+    height: 504px;
+    margin-top: 29px;
+}
+
+    /* Services */
+.services-list {
+    width: 864px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.frame-heading {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.frame-1-content,
+.frame-2-content,
+.frame-3-content,
+.frame-4-content {
+    width: 600px;
+    margin-left: 60px;
+}
+
+.services-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.services-list-item img {
+    margin-top: 80px;
+}
+
+.image-1 {
+    margin-top: 0;
+}
+
+.frame-text {
+    margin-bottom: 0;
+    margin-top: 24px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.frame-button  {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+/* restangle */
+.restangle {
+    background:#0EB4C1;
+    margin-top: 120px;
+    color: #fff;
+    
+}
+
+.restangle-container {
+    width: 470px;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.restangle-heading {
+    text-align:center;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.restangle-links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.restangle-link {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 18px;
+    padding: 12px;
+    transition: 0.3s;
+}
+
+.restangle-link:hover {
+    color:#fff ;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+
+}
+
+/* footer */
+
+.footer {
+    background: #222;
+}
+
+.footer  .logo-text{
+    color: #fff;
+    transition: 0.3s;
+}
+
+.footer  .logo-text:hover {
+    color:#DE2E54 ;
+}
+
+.footer .site-navbar-items .navbar-link {
+    color: #fff;
+    transition: 0.3s;
+
+}
+
+.footer .site-navbar-items .navbar-link:hover {
+    color:#DE2E54 ;
+}
