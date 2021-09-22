@@ -49,6 +49,10 @@ body {
     color: #DE2E54;
 }
 
+.logo-text:active {
+    opacity: 0.5;
+}
+
 .site-navbar-items {
     padding-left: 0;
     margin: 0;
@@ -81,6 +85,10 @@ body {
     color: #DE2E54;
 }
 
+.navbar-link:active {
+    opacity: 0.5;
+}
+
 .button {
     padding: 12px 24px;
     background: #DE2E54;
@@ -101,6 +109,9 @@ body {
     color:#DE2E54 ;
 }
 
+.button:active {
+    opacity: 0.5;
+}
 /* Hero */
 
 .hero {
@@ -248,6 +259,10 @@ body {
 
 }
 
+.restangle-link:active {
+    opacity: 0.5;
+}
+
 /* footer */
 
 .footer {
@@ -263,6 +278,10 @@ body {
     color:#DE2E54 ;
 }
 
+.footer  .logo-text:active {
+    opacity: 0.5;
+}
+
 .footer .site-navbar-items .navbar-link {
     color: #fff;
     transition: 0.3s;
@@ -271,4 +290,8 @@ body {
 
 .footer .site-navbar-items .navbar-link:hover {
     color:#DE2E54 ;
+}
+
+.footer .site-navbar-items .navbar-link:active {
+    opacity: 0.5;
 }
